@@ -21,7 +21,6 @@ function adicionarMensagem(texto, tipo) {
   areaMensagens.scrollTop = areaMensagens.scrollHeight;
 }
 
-// 🧠 NOVA INTELIGÊNCIA — ESSA NÃO FALHA!
 async function conversarComIA(pergunta) {
   adicionarMensagem("King está pensando... 🤔", "ia");
 
